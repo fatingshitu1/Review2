@@ -24,7 +24,7 @@ public class Contact {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String Shital) {
         this.name = name;
     }
 
@@ -40,15 +40,14 @@ public class Contact {
         return phone;
     }
 
-    public void setPhone(String phone) {
+    public void setPhone(String phone ) {
         this.phone = phone;
     }
-
     public String getCity() {
         return city;
     }
 
-    public void setCity(String city) {
+    public void setCity(String Wardha) {
         this.city = city;
     }
 
@@ -56,7 +55,7 @@ public class Contact {
         return State;
     }
 
-    public void setState(String state) {
-        State = state;
+    public void setState(String Maharastra) {
+        this.State = State;
     }
 }
