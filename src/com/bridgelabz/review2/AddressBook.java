@@ -1,6 +1,8 @@
 package com.bridgelabz.review2;
 
 import java.util.Scanner;
+import java.lang.String;
+
 
 public class AddressBook {
     Contact contact = new Contact();
@@ -9,7 +11,7 @@ public class AddressBook {
         this.contact = contact;
     }
 
-    void addContact() {
+    static void addContact() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter First Name");
         String name = scanner.next();
@@ -21,5 +23,11 @@ public class AddressBook {
         String city = scanner.next();
         System.out.println("Enter state");
         String state = scanner.next();
+        Contact contact = new Contact();
+        contact.setName();
+        contact.setAge();
+        contact.setPhone();
+        contact.setCity();
+        contact.setState();
     }
 }
